@@ -1,7 +1,6 @@
 html, body {
     overflow-x: hidden;
     height: 100%;
-    text-align: center;
 }
 body {
     background: rgba(255, 255, 255, 0.699);
@@ -25,6 +24,61 @@ body {
     overflow: hidden;
     z-index: 10;
 }
+.mainInner div{
+    display:table-cell;
+    vertical-align: middle;
+}
+.mainInner{
+    display: table;
+    width:100%;
+    margin-top: 60px;
+    text-align: center;
+   
+}
+#main1{
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    font-family: 'Noto Serif JP', serif;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    text-orientation: upright;
+    position: absolute;
+    right: 5%;
+    top: 200px;
+    overflow-x:scroll;
+    width:90%;
+    height: 300px;
+    float: left;
+    text-align: start;
+
+}
+#main2{
+    margin: 0 auto;
+    display: block;
+    font-family: 'Noto Serif JP', serif;
+    position: absolute;
+    top: 550px;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.title{
+    font-size: 2em;
+    background-color: white;
+    color: rgb(136, 86, 105);
+    font-family: 'Noto Serif JP', serif;
+    float: inline-start ;
+    text-align: center;
+    width:100%;
+}
+
+.mainInner h3{
+    font-size: 1.5em;
+    color: rgb(0, 83, 151);
+    text-align: center;
+}
+
 #logo{
     width:220px!important;
         height: 60px!important;
@@ -147,50 +201,4 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     box-sizing: border-box;
     transform: rotate(-135deg);
     margin-top: -9px;
-}
-.mainInner div{
-    display:table-cell;
-    vertical-align: middle;
-    float: left;
-}
-.mainInner{
-    display: table;
-    width:100%;
-    margin-top: 60px;
-
-   
-}
-#main1{
-    margin: 0 auto;
-    display: block;
-    background-color: white;
-    font-family: 'Noto Serif JP', serif;
-    writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    text-orientation: upright;
-    position: absolute;
-    right: 5%;
-    top: 200px;
-    overflow-x:scroll;
-    width:90%;
-    height: 300px;
-    float: left;
-    text-align: left;
-
-}
-
-.title{
-    font-size: 2em;
-    background-color: white;
-    color: rgb(136, 86, 105);
-    font-family: 'Noto Serif JP', serif;
-    float: inline-start ;
-    text-align: center;
-    width:100%;
-}
-
-.mainInner h3{
-    font-size: 1.5em;
-    color: rgb(0, 83, 151);
-    text-align: center;
 }
